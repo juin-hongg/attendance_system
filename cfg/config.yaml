@@ -1,0 +1,12 @@
+# read credentials from environment variables
+DB:
+
+  dbname: !ENV DB_NAME
+  user: !ENV DB_USER
+  password: !ENV DB_PASSWORD
+  host: !ENV HOST
+  port: !ENV PORT
+
+YEAR: "2020"
+SEM: "2"
+ROOM_ID: "CS001"
